@@ -1,0 +1,45 @@
+body{
+    background: rgb(11, 11, 11);
+}
+
+.avatar{
+    display: flex;
+}
+  
+  .border-avatar{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .border-avatar img {
+      width: 50px;
+      height: 50px;
+      transition: transform 0.5s;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .ava img{
+    width: 40px;
+      height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    margin-left: 4%;
+    margin-top: 3%;
+    transition: transform 0.5s;
+  }
+  
+  .avatar-top img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      /* border-color: #078d24;
+      border-width: 1px;
+      border-style: double; */
+    border-image: url('kinichborder.png');
+      transition: transform 0.5s;
+    margin-top: 30%;
+    margin-left: 70%;
+    display: none;
+  }
